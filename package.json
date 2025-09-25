@@ -7,7 +7,7 @@
     "build": "cd portfolio && npm run build",
     "start": "cd portfolio && npm run start",
     "lint": "cd portfolio && npm run lint",
-    "install-deps": "cd portfolio && npm install"
+    "install-deps": "cd portfolio && npm install --legacy-peer-deps"
   },
   "description": "Portfolio workspace with Next.js project in portfolio subdirectory"
 }
