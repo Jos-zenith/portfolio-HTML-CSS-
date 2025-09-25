@@ -1,26 +1,13 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
+  "name": "portfolio-workspace",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "cd portfolio && npm run dev",
+    "build": "cd portfolio && npm run build",
+    "start": "cd portfolio && npm run start",
+    "lint": "cd portfolio && npm run lint",
+    "install-deps": "cd portfolio && npm install"
   },
-  "dependencies": {
-    "next": "15.0.3",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "15.0.3",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
-  }
+  "description": "Portfolio workspace with Next.js project in portfolio subdirectory"
 }
